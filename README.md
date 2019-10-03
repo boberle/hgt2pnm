@@ -4,9 +4,11 @@ HGT files are data about elevation (Digital Elevation Model, or DEM) provided by
 
 The documentation is available [here](https://dds.cr.usgs.gov/srtm/version2_1/Documentation/).
 
-Basically, they are an image representation of Earth: each pixel represents 1 or 3 meters (depending on the regions) and contain an elevation value.
+Basically, they are an image representation of Earth: each pixel represents 1 or 3 meters (depending on the regions) and contains an elevation value.
 
-This repository contains programs to modify them.  Please check out [my `elevation_map` directory](https://github.com/boberle/elevation_map) for maps in color.
+They are "provided as 16-bit signed integer data in a simple binary raster."  The "byte order is Motorola ("big-endian") standard with the most significant byte first." ([doc](https://dds.cr.usgs.gov/srtm/version2_1/Documentation/SRTM_Topo.pdf)).  This means that they cannot be exploited as is, and need to transformations.
+
+This repository contains programs to read and modify them.  Please check out [my `elevation_map` directory](https://github.com/boberle/elevation_map) for maps in color.
 
 ## `hgt2pnm`: get an image
 
