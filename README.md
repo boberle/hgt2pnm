@@ -1,6 +1,6 @@
-# `hgt2pnm` -- Converting HGT files to PNG images
+# `hgt2pnm` -- Converting HGT elevation model files to images
 
-HGT files are data about elevation (Digital Elevation Model, or DEM) provided by NASA.  You can download them [here](https://dds.cr.usgs.gov/srtm/version2_1/).
+HGT files are data about elevation (Digital Elevation Model, or DEM) provided by USGS and NASA.  You can download them [here](https://dds.cr.usgs.gov/srtm/version2_1/).
 
 The documentation is available [here](https://dds.cr.usgs.gov/srtm/version2_1/Documentation/).
 
